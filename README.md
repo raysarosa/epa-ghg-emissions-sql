@@ -75,7 +75,7 @@ Applies intermediate SQL techniques:
 
 **Raysa Rocha**  
 📍 Postgrad in Data Science & Analytics – Nova IMS, Lisbon  
-🌐 [LinkedIn](https://www.linkedin.com/in/yourusername) | [GitHub](https://github.com/yourusername)
+🌐 [LinkedIn](https://www.linkedin.com/in/raysarocha) | [GitHub](https://github.com/raysarosa)
 
 ---
 
