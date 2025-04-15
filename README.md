@@ -9,7 +9,8 @@ This project explores and analyzes facility-level greenhouse gas (GHG) emissions
 - Practice **SQL querying** from basic to advanced level
 - Work with **real-world environmental data**
 - Analyze emissions by **state**, **facility**, **ZIP code**, **parent company**, and **industry**
-- Highlight both **top emitters** and **low-emission performers**
+- Identify both **top emitters** and **low-emission performers**
+- Apply **window functions**, **subqueries**, **categorization**, and **aggregations**
 - Structure queries for clarity, logic, and scalability
 
 ---
@@ -31,7 +32,7 @@ epa-ghg-emissions-sql/
 ├── Queries/
 │   ├── 01_basic.sql
 │   └── 02_intermediate.sql
-│   └── 03_advanced.sql (coming soon)
+│   └── 03_advanced.sql
 ├── Datasets/
 │   └── README.md
 └── README.md
@@ -54,6 +55,14 @@ Applies intermediate SQL techniques:
 - Basic use of `UNNEST`, `OFFSET`, and subqueries
 - Focus on both high-impact sources and low-emission performers
 
+### 🟦 `03_advanced.sql`
+Explores advanced SQL analytics:
+- `ROW_NUMBER`, `PERCENT_RANK`, and window functions
+- Emission comparisons by state and industry
+- Subpart-level aggregation with joins and unnesting
+- Labeling facilities by performance vs national average using `CASE`
+- National share analysis by company and state
+
 ---
 
 ## 🛠 Tools Used
@@ -65,9 +74,10 @@ Applies intermediate SQL techniques:
 ---
 
 ## 🚧 Future Work
-- Add `03_advanced.sql`: window functions, time-based insights, and rankings
-- Visualize with Power BI, Looker Studio, or Python dashboards
-- Expand to multi-year comparisons or combine with weather data
+- Build dashboards with Power BI or Looker Studio
+- Combine multi-year emissions data
+- Overlay weather or energy consumption data for contextual analysis
+- Deploy insights in interactive reports
 
 ---
 
